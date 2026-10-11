@@ -6,7 +6,7 @@ So（注入 so 文件）、Dump So（与 Frida 枚举 so 类似）、Dump Dex（
 Maps（/proc/self/maps，支持快速 dump）、Dump Xml（支持Epic、DexProtect等）、Dump
 Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（去除截屏限制）、调试浏览器等等。
 
-<img src="https://icdn.binmt.cc/2605/69f991816414d.jpg" alt="">
+<img src="./assets/overview.jpg" alt="">
 
 ## 二、如何激活并使用模块？
 
@@ -36,15 +36,13 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 1.预览对象
 - 2.杀死进程
 
-<img src="https://icdn.binmt.cc/2605/69f9782262b02.jpg" alt="">
+<img src="./assets/app_process.jpg" alt="">
 
 ### 2.捕获布局（兼容SystemUI、兼容各种窗口类型、临时上帝模式）
 
 该功能用于快速定位 View 控件，支持捕获任何窗口（PopupWindow、Dialog、Menu、悬浮窗等），具备以下几大功能：
 
-<img src="https://icdn.binmt.cc/2605/69fcae857d273.jpg" alt="">
-
-<img src="https://icdn.binmt.cc/2605/69f97830e8ff6.jpg" alt="">
+<img src="./assets/capture_layout.jpg" alt="">
 
 控件信息：
 
@@ -162,7 +160,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 2.application
 - 3.intent
 
-<img src="https://icdn.binmt.cc/2605/69f98ded91f43.jpg" alt="">
+<img src="./assets/activity_record.jpg" alt="">
 
 ### 4.活动管理
 
@@ -171,7 +169,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 1.预览类：直接预览该 activity 类名的结构（字段，构造，方法，父类，内部类等）
 - 2.启动活动：直接跳转该 activity
 
-<img src="https://icdn.binmt.cc/2605/69f98eb29e010.jpg" alt="">
+<img src="./assets/activity_manager.jpg" alt="">
 
 ### 5.类加载器（枚举内存中的加载器）
 
@@ -180,7 +178,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 1.预览对象：用于查看类结构（字段，构造，方法，父类，内部类等）
 - 2.Dump Dex：具体请参考下面的 Dump Dex
 
-<img src="https://icdn.binmt.cc/2605/69f9783a5f2f9.jpg" alt="">
+<img src="./assets/classloaders.jpg" alt="">
 
 ### 6.搜索类名（支持动态加载类）
 
@@ -189,13 +187,13 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 原因：通过枚举类加载器从而进行搜索类名，即使是动态加载的 dex，也插翅难逃
 - 功能：“预览类”，用于查看类结构（字段，构造，方法，父类，内部类等）
 
-<img src="https://icdn.binmt.cc/2605/69f9784743d69.jpg" alt="">
+<img src="./assets/classloaders.jpg" alt="">
 
 ### 7.Inject So（注入 so 文件）
 
 该功能用于向 APP 注入 so 文件，懂的都懂。
 
-<img src="https://icdn.binmt.cc/2605/69f97848b41d2.jpg" alt="">
+<img src="./assets/inject_so.jpg" alt="">
 
 ### 8.Dump So（与 Frida 枚举 so 类似）
 
@@ -204,7 +202,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 1.查看基本信息（pathname、base、size）
 - 2.Dump So
 
-<img src="https://icdn.binmt.cc/2605/69f9784ce6c9a.jpg" alt="">
+<img src="./assets/dump_so.jpg" alt="">
 
 ### 9.Dump Dex（支持愛加蜜、愛加蜜企业、dpt-shell等方案脱壳）
 
@@ -217,13 +215,13 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 您可以前往 高级设置 -> 主动加载类 -> 自定义 进行脱壳，支持R8基础规则 或 正则表达式 进行主动加载类并脱壳（常见于修复 nop
   问题）
 
-<img src="https://icdn.binmt.cc/2605/69f97850cd320.jpg" alt="">
+<img src="./assets/dump_dex.jpg" alt="">
 
 ### 10.Dump Xml（支持Epic、DexProtect等）
 
 该功能可以解密常见的 Axml 加密，如Epic、DexProtect等。原理是通过解析 xmlBlock 的内存进行还原（虽然罕见，但不能没有）。
 
-<img src="https://icdn.binmt.cc/2605/69f98f63dc3ba.jpg" alt="">
+<img src="./assets/dump_xml.jpg" alt="">
 
 ### 11.Dump Maps
 
@@ -236,13 +234,13 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 
 Ps：该功能也可以用于 Dump So，若您想 Dump So，请使用“Dump All Memory”功能（注意：极端情况下，可能出现 Dump 的比实际更多）。
 
-<img src="https://icdn.binmt.cc/2605/69f97862dff7e.jpg" alt="">
+<img src="./assets/dump_maps.jpg" alt="">
 
 ### 12.Dump Assets（支持Epic、纸片、木华、NP管理器等）
 
 该功能可以解密常见的 Assets 资源加密，如NP管理器、Epic、木华、纸片等资源加密。
 
-<img src="https://icdn.binmt.cc/2605/69f9786d3bb7e.jpg" alt="">
+<img src="./assets/dump_maps.jpg" alt="">
 
 ### 13.移除安全限制（截屏限制）
 
@@ -252,7 +250,7 @@ Ps：该功能也可以用于 Dump So，若您想 Dump So，请使用“Dump All
 
 该功能主要用于逆向 Web 型软件，与谷歌浏览器配合使用，动态调试快速定位 Html 元素，网络请求，算法还原等，减少逆向时间的成本。
 
-<img src="https://icdn.binmt.cc/2605/69f97866dc551.jpg" alt="">
+<img src="./assets/webview_debug.jpg" alt="">
 
 ## 五、常见问题
 

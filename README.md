@@ -187,7 +187,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 原因：通过枚举类加载器从而进行搜索类名，即使是动态加载的 dex，也插翅难逃
 - 功能：“预览类”，用于查看类结构（字段，构造，方法，父类，内部类等）
 
-<div align="center"><img src="./assets/classloaders.jpg" alt="" width="33%"></div>
+<div align="center"><img src="./assets/search_class.jpg" alt="" width="33%"></div>
 
 ### 7.Inject So（注入 so 文件）
 
@@ -240,7 +240,7 @@ Ps：该功能也可以用于 Dump So，若您想 Dump So，请使用“Dump All
 
 该功能可以解密常见的 Assets 资源加密，如NP管理器、Epic、木华、纸片等资源加密。
 
-<img src="./assets/dump_maps.jpg" alt="">
+<img src="./assets/dump_assets.jpg.jpg" alt="">
 
 ### 13.移除安全限制（截屏限制）
 

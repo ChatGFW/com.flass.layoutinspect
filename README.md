@@ -42,7 +42,8 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 
 该功能用于快速定位 View 控件，支持捕获任何窗口（PopupWindow、Dialog、Menu、悬浮窗等），具备以下几大功能：
 
-<img src="./assets/capture_layout.jpg" alt="">
+<img src="./assets/capture_layout_systemui.jpg" alt="">
+<img src="./assets/capture_layout_app.jpg" alt="">
 
 控件信息：
 

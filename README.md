@@ -12,7 +12,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 
 1.首先先下载并安装 Layout Inspect，然后到 LSPosed 勾选您的目标软件（不需要勾选“系统框架”）
 
-2.本模块已经兼容API 89、100、101，Layout Inspect支持动态请求作用域！
+2.本模块已经兼容API 89、100、101、102，Layout Inspect支持动态请求作用域！
 
 [温馨提示：](#)自 1.1.5 起，首次打开 Layout Inspect 需要选择 Xposed Service（选择不当会导致部分功能异常，如：动态作用域）。
 

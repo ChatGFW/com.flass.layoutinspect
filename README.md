@@ -240,7 +240,7 @@ Ps：该功能也可以用于 Dump So，若您想 Dump So，请使用“Dump All
 
 该功能可以解密常见的 Assets 资源加密，如NP管理器、Epic、木华、纸片等资源加密。
 
-<img src="./assets/dump_assets.jpg" alt="">
+<div align="center"><img src="./assets/dump_assets.jpg" alt="" width="66%"></div>
 
 ### 13.移除安全限制（截屏限制）
 

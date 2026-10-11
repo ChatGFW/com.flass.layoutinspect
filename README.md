@@ -1,7 +1,7 @@
 ## 一、模块简介
 
 Layout Inspect 是一款逆向必备的工具：它具备以下功能：应用进程、捕获布局（兼容
-SystemUI、各种窗口类型、临时上帝模式）、活动记录、类加载器（枚举内存中的类加载器）、搜索类名（支持动态加载类）、Inject
+SystemUI、各种窗口类型、临时上帝模式）、活动记录、类加载器（枚举内存的类加载器）、搜索类名（支持动态加载类）、Inject
 So（注入 so 文件）、Dump So（与 Frida 枚举 so 类似）、Dump Dex（支持愛加蜜、愛加蜜企业、dpt-shell等方案脱壳）、Dump
 Maps（/proc/self/maps，支持快速 dump）、Dump Xml（支持Epic、DexProtect等）、Dump
 Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（去除截屏限制）、调试浏览器等等。
@@ -57,6 +57,8 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
     - height（高）
 -
     - id
+-
+    - layoutRes（layout xml）
 -
     - tag（标签）
 -

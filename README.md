@@ -36,7 +36,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 1.预览对象
 - 2.杀死进程
 
-<img src="./assets/app_process.jpg" alt="">
+<div align="center"><img src="./assets/app_process.jpg" alt="" width="66%"></div>
 
 ### 2.捕获布局（兼容SystemUI、兼容各种窗口类型、临时上帝模式）
 
@@ -160,7 +160,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 2.application
 - 3.intent
 
-<img src="./assets/activity_record.jpg" alt="">
+<div align="center"><img src="./assets/activity_record.jpg" alt="" width="66%"></div>
 
 ### 4.活动管理
 
@@ -169,7 +169,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 1.预览类：直接预览该 activity 类名的结构（字段，构造，方法，父类，内部类等）
 - 2.启动活动：直接跳转该 activity
 
-<img src="./assets/activity_manager.jpg" alt="">
+<div align="center"><img src="./assets/activity_manager.jpg" alt="" width="33%"></div>
 
 ### 5.类加载器（枚举内存中的加载器）
 
@@ -178,7 +178,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 1.预览对象：用于查看类结构（字段，构造，方法，父类，内部类等）
 - 2.Dump Dex：具体请参考下面的 Dump Dex
 
-<img src="./assets/classloaders.jpg" alt="">
+<div align="center"><img src="./assets/classloaders.jpg" alt="" width="33%"></div>
 
 ### 6.搜索类名（支持动态加载类）
 
@@ -187,13 +187,13 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 原因：通过枚举类加载器从而进行搜索类名，即使是动态加载的 dex，也插翅难逃
 - 功能：“预览类”，用于查看类结构（字段，构造，方法，父类，内部类等）
 
-<img src="./assets/classloaders.jpg" alt="">
+<div align="center"><img src="./assets/classloaders.jpg" alt="" width="33%"></div>
 
 ### 7.Inject So（注入 so 文件）
 
 该功能用于向 APP 注入 so 文件，懂的都懂。
 
-<img src="./assets/inject_so.jpg" alt="">
+<div align="center"><img src="./assets/inject_so.jpg" alt="" width="33%"></div>
 
 ### 8.Dump So（与 Frida 枚举 so 类似）
 
@@ -202,7 +202,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 - 1.查看基本信息（pathname、base、size）
 - 2.Dump So
 
-<img src="./assets/dump_so.jpg" alt="">
+<div align="center"><img src="./assets/dump_so.jpg" alt="" width="66%"></div>
 
 ### 9.Dump Dex（支持愛加蜜、愛加蜜企业、dpt-shell等方案脱壳）
 
@@ -221,7 +221,7 @@ Asset（支持Epic、纸片、木华、NP管理器等）、移除安全限制（
 
 该功能可以解密常见的 Axml 加密，如Epic、DexProtect等。原理是通过解析 xmlBlock 的内存进行还原（虽然罕见，但不能没有）。
 
-<img src="./assets/dump_xml.jpg" alt="">
+<div align="center"><img src="./assets/dump_xml.jpg" alt="" width="66%"></div>
 
 ### 11.Dump Maps
 
@@ -250,7 +250,7 @@ Ps：该功能也可以用于 Dump So，若您想 Dump So，请使用“Dump All
 
 该功能主要用于逆向 Web 型软件，与谷歌浏览器配合使用，动态调试快速定位 Html 元素，网络请求，算法还原等，减少逆向时间的成本。
 
-<img src="./assets/webview_debug.jpg" alt="">
+<div align="center"><img src="./assets/webview_debug.jpg" alt="" width="33%"></div>
 
 ## 五、常见问题
 
